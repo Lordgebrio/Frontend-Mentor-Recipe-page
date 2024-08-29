@@ -40,7 +40,7 @@ p,h3 {
 }
 
 .header .container-text p{
-    font-size: 16px;   
+    font-size: 20px;   
     padding-bottom: 50px;
 }
 
@@ -67,7 +67,76 @@ p,h3 {
 
 .container-preparation ul li{
     color: black;
+    line-height: 40px;
+    font-size: 20px;
 }
+
 .container-preparation ul li span{
     font-weight: 900;
+}
+
+.container > h2{
+    font-weight: 400;
+    font-size: 40px;
+    color: hsl(14, 45%, 36%);
+    padding: 30px  0;
+
+}
+
+.container-ingredients ul{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.container-ingredients ul li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 1.5rem;
+}
+.container-ingredients ul li{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.container-instructions{
+    padding: 30px 0;
+}
+
+.container-instructions ol{
+    padding-left: 20px;
+}
+
+.container-instructions ol li{
+    line-height: 50px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.container-instructions ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+.container-instructions ol li span{
+    font-weight: 600;
+}
+
+.container-mutrition p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.container-mutrition table{
+    width: 100%;
+}
+
+.container-mutrition table tr{
+    border-bottom: 1px solid #000;
+}
+
+.container-mutrition table tr td{
+    padding: 20px 0 20px 20px;
+}
+
+.container-mutrition  td{
+    font-size: 20px;
 }
