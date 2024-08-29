@@ -1,0 +1,73 @@
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* Estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 95%;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+p,h3 {
+    font-family: "Outfit", sans-serif;
+}
+
+/* header */
+
+.header .container-image img {
+    width: 100%;
+    padding-top: 50px;
+    object-fit: cover;
+}
+
+.header .container-text h1{
+    font-size: 80px;
+    padding: 30px 0;
+}
+
+.header .container-text p{
+    font-size: 16px;   
+    padding-bottom: 50px;
+}
+
+.container-preparation{
+    padding: 30px;
+    background-color: hsl(330, 100%, 98%);    
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.container-preparation h3{
+    color: hsl(332, 51%, 32%);
+    margin: 0 0 20px 0 ;
+}
+
+.container-preparation ul{
+    padding-left: 20px;
+}
+
+.container-preparation ul li::marker{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.5rem;
+}
+
+.container-preparation ul li{
+    color: black;
+}
+.container-preparation ul li span{
+    font-weight: 900;
+}
