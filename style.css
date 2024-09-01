@@ -120,23 +120,33 @@ p,h3 {
     font-weight: 600;
 }
 
-.container-mutrition p{
-    font-size: 20px;
-    padding-bottom: 30px;
+.container-nutrition {
 }
 
-.container-mutrition table{
+.container-nutrition p {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 3em;
+}
+
+.container-nutrition table {
     width: 100%;
+    border-collapse: collapse;
 }
 
-.container-mutrition table tr{
-    border-bottom: 1px solid #000;
+.container-nutrition td {
+    padding: 8px 0;
+    border-top: 1px solid #ddd;
 }
 
-.container-mutrition table tr td{
-    padding: 20px 0 20px 20px;
+.container-nutrition td:first-child {
+    color: #555;
+    font-weight: bold;
 }
 
-.container-mutrition  td{
-    font-size: 20px;
+.container-nutrition td:last-child {
+    text-align: right;
+    color: #8B4513;
+    font-weight: bold;
+    font-size: 1.2em;
 }
